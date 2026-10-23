@@ -1,0 +1,185 @@
+{
+  "sola": {
+    "url": "https://arxiv.org/abs/1711.02508",
+    "final_url": "https://arxiv.org/abs/1711.02508",
+    "bytes": 40274,
+    "sha256": "0193e4eabc3ed85a53d552983bf62a5c647d0ef2a3cafcfcb259ef50fa85efdb",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "util": {
+    "url": "https://utiasdsl.github.io/util-uwb-dataset/",
+    "final_url": "https://utiasdsl.github.io/util-uwb-dataset/",
+    "bytes": 127,
+    "sha256": "259c4a19bb447ead7347f657817c347ba6da5210b60a5a75941549cae27c0e66",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "nist": {
+    "url": "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+    "final_url": "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+    "bytes": 41724,
+    "sha256": "91c362cc929161898559e0e8bee7a32436be8b32a2be8f5813f322222badfb87",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "rfc": {
+    "url": "https://www.rfc-editor.org/rfc/rfc5116.txt",
+    "final_url": "https://www.rfc-editor.org/rfc/rfc5116.txt",
+    "bytes": 50539,
+    "sha256": "8762fee7c85e682fce609c75e0f5040ee7efa8fca96969ffd85df37585e0eda1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "marano": {
+    "url": "https://api.crossref.org/works/10.1109/JSAC.2010.100907",
+    "final_url": "https://api.crossref.org/works/10.1109/JSAC.2010.100907",
+    "bytes": 6405,
+    "sha256": "f12400c13ec3b48c9b7fc4f460bc7f4e4c835b05ac05a5cb677bea84247f3ce5",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "dardari": {
+    "url": "https://api.crossref.org/works/10.1109/JPROC.2009.2015588",
+    "error": "HTTP Error 404: Not Found",
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "bordoy": {
+    "url": "https://api.crossref.org/works/10.1109/ISISS.2017.7935670",
+    "final_url": "https://api.crossref.org/works/10.1109/ISISS.2017.7935670",
+    "bytes": 3081,
+    "sha256": "14a2da98d0779278a202173874892f22fa197630ddeb53b9593492bdc68a66e8",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "util-meta": {
+    "url": "https://api.crossref.org/works/10.1177/02783649241230640",
+    "final_url": "https://api.crossref.org/works/10.1177/02783649241230640",
+    "bytes": 13079,
+    "sha256": "5c11d6399f91db06c586bcc8eba16f520f6aabdc823acd464df105fe8c9231b7",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "util-site": {
+    "url": "https://learnsyslab.github.io/util-uwb-dataset/",
+    "final_url": "https://learnsyslab.github.io/util-uwb-dataset/",
+    "bytes": 30582,
+    "sha256": "009a4b992bd5c9e739c9d98fea203b550dc31043ea2fbb13b219d14d552218a2",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "sola-pdf": {
+    "url": "https://arxiv.org/pdf/1711.02508",
+    "final_url": "https://arxiv.org/pdf/1711.02508",
+    "bytes": 1686327,
+    "sha256": "6a3d3d3933c425eb6cef049290c2b48b71a90f5189e9810575d83d3a922faaca",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "nist-pdf": {
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
+    "final_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38d.pdf",
+    "bytes": 271960,
+    "sha256": "d99f3921ccebca049e7522426553aba071dae14ec3d5b6041e8c111a6cb57bba",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "oursland": {
+    "url": "https://api.crossref.org/works/10.1109/RO-MAN60168.2024.10731434",
+    "final_url": "https://api.crossref.org/works/10.1109/RO-MAN60168.2024.10731434",
+    "bytes": 4742,
+    "sha256": "6b61f05e1ac8d3dcf1fe62fe42450ceb6faa56b6caa13f09f8663d05814112b6",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "briese": {
+    "url": "https://api.crossref.org/works/10.1109/ICUWB.2017.8250968",
+    "final_url": "https://api.crossref.org/works/10.1109/ICUWB.2017.8250968",
+    "bytes": 3685,
+    "sha256": "88208e57ea5a94cb0b54f36030cb63e20b16fba7659452cac5b07cfb7bdf1ea1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "li-full": {
+    "url": "https://arxiv.org/pdf/2301.09033",
+    "final_url": "https://arxiv.org/pdf/2301.09033",
+    "status": 200,
+    "bytes": 1877863,
+    "sha256": "8712c655ccc14f2cdab572ec30a79160fb1dc3e960c177bb432a36a9ab6e6cb1",
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "util-full": {
+    "url": "https://arxiv.org/pdf/2203.14471",
+    "final_url": "https://arxiv.org/pdf/2203.14471",
+    "status": 200,
+    "bytes": 5765427,
+    "sha256": "6525c359d7bb71dadffe1d56d634814e5e2d1bcf2c81883cf5bc2567048b5674",
+    "accessed": "2026-10-23",
+    "stored_full_text_in_repository": false
+  },
+  "fusion2023": {
+    "url": "https://api.crossref.org/works?query.title=Continuous-Time+Ultra-Wideband-Inertial+Fusion&rows=1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "bytes": 7448,
+    "sha256": "ba9e38cca8b7c8e545f4f908912022e47f5ebd99d1b8eddaca3a0006411a5699",
+    "stored_full_text_in_repository": false,
+    "query_type": "exact_title_search",
+    "selection": "First result; title and authors manually checked."
+  },
+  "proposal24": {
+    "url": "https://api.crossref.org/works?query.title=Indoor+and+Outdoor+Seamless+Positioning+Method+Using+UWB+Enhanced+Multi-Sensor+Tightly-Coupled+Integration&rows=1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "bytes": 7673,
+    "sha256": "b14bdd4140524d0ed56a19a2423e342be1a46d61e7e13a058d51639154dbd029",
+    "stored_full_text_in_repository": false,
+    "query_type": "exact_title_search",
+    "selection": "First result; title and authors manually checked."
+  },
+  "proposal25": {
+    "url": "https://api.crossref.org/works?query.title=Indoor+Localization+System+With+NLOS+Mitigation+Based+on+Self-Training&rows=1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "bytes": 9444,
+    "sha256": "f7e1b1cf98cfa235b079ae12ee537da649f8a6743408bf472956e59537e5bde3",
+    "stored_full_text_in_repository": false,
+    "query_type": "exact_title_search",
+    "selection": "First result; title and authors manually checked."
+  },
+  "dardari-query": {
+    "url": "https://api.crossref.org/works?query.title=Ranging+With+Ultrawide+Bandwidth+Signals+in+Multipath+Environments&rows=1",
+    "status": 200,
+    "accessed": "2026-10-23",
+    "bytes": 19095,
+    "sha256": "d0c9a38371b6513dd6fe14389c08fe490aaf0d0131d12dc460fcc4d834e45e94",
+    "stored_full_text_in_repository": false,
+    "query_type": "exact_title_search",
+    "selection": "First result; title and authors manually checked."
+  },
+  "util-repo": {
+    "url": "https://api.github.com/repos/learnsyslab/util-uwb-dataset",
+    "accessed": "2026-10-23",
+    "method": "GitHub connector fetch",
+    "response_subset": {
+      "full_name": "learnsyslab/util-uwb-dataset",
+      "license": null,
+      "default_branch": "main"
+    },
+    "interpretation": "License not confirmed; a null API field is not proof that no terms exist."
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T08:43:51.991961+00:00",
+  "evidence_type": "synthetic_estimation_to_authenticated_telemetry_integration_demo",
+  "pipeline": "simulate -> robust_eskf -> JSON state -> AES-256-GCM -> replay check -> JSON state",
+  "seed": 20261023,
+  "scenario": "combined",
+  "method": "robust_eskf",
+  "simulation_config": {
+    "duration_s": 4.0,
+    "imu_rate_hz": 100.0,
+    "uwb_rate_hz": 10.0,
+    "range_std_m": 0.08,
+    "accel_std_mps2": 0.03,
+    "gyro_std_radps": 0.001,
+    "accel_bias_rw_mps2_sqrts": 0.0001,
+    "gyro_bias_rw_radps_sqrts": 2e-05,
+    "accel_bias_mps2": [
+      0.03,
+      -0.02,
+      0.015
+    ],
+    "gyro_bias_radps": [
+      0.0008,
+      -0.0006,
+      0.0004
+    ],
+    "initial_position_error_m": [
+      0.25,
+      -0.2,
+      0.15
+    ],
+    "initial_velocity_error_mps": [
+      0.03,
+      -0.02,
+      0.02
+    ],
+    "initial_attitude_error_deg": [
+      0.7,
+      -0.5,
+      1.5
+    ],
+    "nlos_intervals_s": [
+      [
+        1.0,
+        2.0
+      ]
+    ],
+    "nlos_anchor_groups": [
+      [
+        0,
+        1
+      ]
+    ],
+    "nlos_bias_floor_m": 0.6,
+    "nlos_bias_exponential_mean_m": 0.25,
+    "dropout_interval_s": [
+      2.5,
+      3.0
+    ],
+    "anchors_m": [
+      [
+        0.0,
+        0.0,
+        0.3
+      ],
+      [
+        10.0,
+        0.0,
+        2.8
+      ],
+      [
+        10.0,
+        8.0,
+        0.3
+      ],
+      [
+        0.0,
+        8.0,
+        2.8
+      ],
+      [
+        5.0,
+        0.0,
+        2.8
+      ],
+      [
+        5.0,
+        8.0,
+        0.3
+      ]
+    ]
+  },
+  "filter_config": {
+    "range_std_m": 0.08,
+    "accel_std_mps2": 0.03,
+    "gyro_std_radps": 0.001,
+    "accel_bias_rw_mps2_sqrts": 0.0001,
+    "gyro_bias_rw_radps_sqrts": 2e-05,
+    "initial_position_std_m": 0.5,
+    "initial_velocity_std_mps": 0.2,
+    "initial_attitude_std_deg": 3.0,
+    "initial_accel_bias_std_mps2": 0.1,
+    "initial_gyro_bias_std_radps": 0.005,
+    "soft_nis_threshold": 3.841458820694124,
+    "hard_nis_threshold": 10.827566170662733,
+    "max_variance_scale": 25.0
+  },
+  "dataset_metadata": {
+    "data_kind": "synthetic",
+    "seed": 20261023,
+    "scenario": "combined",
+    "config": {
+      "duration_s": 4.0,
+      "imu_rate_hz": 100.0,
+      "uwb_rate_hz": 10.0,
+      "range_std_m": 0.08,
+      "accel_std_mps2": 0.03,
+      "gyro_std_radps": 0.001,
+      "accel_bias_rw_mps2_sqrts": 0.0001,
+      "gyro_bias_rw_radps_sqrts": 2e-05,
+      "accel_bias_mps2": [
+        0.03,
+        -0.02,
+        0.015
+      ],
+      "gyro_bias_radps": [
+        0.0008,
+        -0.0006,
+        0.0004
+      ],
+      "initial_position_error_m": [
+        0.25,
+        -0.2,
+        0.15
+      ],
+      "initial_velocity_error_mps": [
+        0.03,
+        -0.02,
+        0.02
+      ],
+      "initial_attitude_error_deg": [
+        0.7,
+        -0.5,
+        1.5
+      ],
+      "nlos_intervals_s": [
+        [
+          1.0,
+          2.0
+        ]
+      ],
+      "nlos_anchor_groups": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nlos_bias_floor_m": 0.6,
+      "nlos_bias_exponential_mean_m": 0.25,
+      "dropout_interval_s": [
+        2.5,
+        3.0
+      ],
+      "anchors_m": [
+        [
+          0.0,
+          0.0,
+          0.3
+        ],
+        [
+          10.0,
+          0.0,
+          2.8
+        ],
+        [
+          10.0,
+          8.0,
+          0.3
+        ],
+        [
+          0.0,
+          8.0,
+          2.8
+        ],
+        [
+          5.0,
+          0.0,
+          2.8
+        ],
+        [
+          5.0,
+          8.0,
+          0.3
+        ]
+      ]
+    },
+    "frame": "ENU; body-to-world quaternion xyzw",
+    "gravity_mps2": [
+      0.0,
+      0.0,
+      -9.80665
+    ],
+    "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+    "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+    "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+  },
+  "sensor_counts": {
+    "imu_intervals": 400,
+    "finite_ranges": 216,
+    "nlos_ranges": 20
+  },
+  "telemetry": {
+    "state_messages_sent_and_accepted": 401,
+    "first_counter": 0,
+    "last_counter": 400,
+    "message_type": "localization_state",
+    "payload_bytes_total": 185325,
+    "wire_bytes_total": 325844,
+    "wire_overhead_bytes_total": 140519,
+    "wire_overhead_bytes_per_message_mean": 350.4214463840399,
+    "wire_to_payload_ratio": 1.7582301362471333,
+    "payload_bytes_min": 353,
+    "payload_bytes_max": 484,
+    "packet_bytes_min": 664,
+    "packet_bytes_max": 842,
+    "gcm_tag_bytes_per_message": 16,
+    "byte_accounting": "Original accepted messages only; excludes two injected attack deliveries.",
+    "sent_payload_stream_sha256": "12c6d3023bce821b95aed04abdc9918703f659067fc2db201bb7fb2818d65187",
+    "received_payload_stream_sha256": "12c6d3023bce821b95aed04abdc9918703f659067fc2db201bb7fb2818d65187",
+    "stream_hash_format": "For each payload: uint64 big-endian byte length followed by payload bytes.",
+    "all_payloads_byte_identical": true,
+    "all_numeric_state_fields_identical_after_json_decode": true
+  },
+  "attack_checks": {
+    "tampering_before_valid_packet": {
+      "counter": 123,
+      "rejected": true,
+      "watermark_before": 122,
+      "watermark_after_rejection": 122,
+      "watermark_unchanged": true,
+      "original_packet_accepted_after_rejection": true
+    },
+    "replay_after_valid_packet": {
+      "counter": 123,
+      "rejected": true,
+      "watermark_unchanged": true
+    }
+  },
+  "localization_consistency": {
+    "direct_position_rmse_m": 0.0779065597620809,
+    "decrypted_position_rmse_m": 0.0779065597620809,
+    "max_position_difference_m": 0.0,
+    "identical_per_epoch_position_errors": true,
+    "interpretation": "Telemetry encryption preserves the estimated state; it does not improve its accuracy."
+  },
+  "source_sha256": {
+    "scripts/secure_localization_demo.py": "4dd2bc574bc0b7c60769f59eb79a8e56de0205b3ecf2c9c596808e50b14459cf",
+    "src/uav_localization/security.py": "f570aaccff65d91e4baa3200cf06165c7dd513ed48eeb48d9f801d03f1d6e5c6",
+    "src/uav_localization/simulation.py": "18d0740a30d5c8a24a5eceeddbc71c533d9abc09207c587cf1611d13528f39e8",
+    "src/uav_localization/estimation.py": "6673d1648cb67dcbd6d8aa5b40e53efe0e0f5554af07ab78b5bd183480590414",
+    "src/uav_localization/geometry.py": "c76dba45253644be4e5c6679d4bcccf4db2d05ad247b8477ebc0350fffcdce37"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cryptography": "50.0.0"
+  },
+  "limitations": [
+    "Four-second synthetic demonstration; not an additional localization benchmark or real flight.",
+    "No network transport, packet-loss scheduling, flight hardware, or key provisioning measured.",
+    "Physical ranging authenticity and resistance to relay attacks are outside this demonstration.",
+    "Encryption runs after estimation; sensor ingress authentication is not implemented here.",
+    "Fresh secrets are generated in memory and are not included in this artifact."
+  ]
+}

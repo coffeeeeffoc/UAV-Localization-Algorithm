@@ -1,0 +1,4538 @@
+{
+  "evidence_type": "synthetic_simulation",
+  "save_policy": "representative",
+  "datasets": [
+    {
+      "scenario": "los",
+      "seed": 100,
+      "status": "synthetic",
+      "array_sha256": "9a92d8f2ba52a35f61344797df65825415ebb01b0c722a93c718c531e76fe5f4",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 100,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": true,
+      "file": "los_seed100.npz",
+      "file_sha256": "ba7616686b772f0fd84b639184e5e6f4dabf2281c837a34a7ec5e4fec9c04947",
+      "bytes": 387065
+    },
+    {
+      "scenario": "los",
+      "seed": 101,
+      "status": "synthetic",
+      "array_sha256": "5ade5a392abc996a8b5f1d79d24533e8d043d31d711e84a5b4240b52425924ad",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 101,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 102,
+      "status": "synthetic",
+      "array_sha256": "cddb81c03e71e57b99b844d95569e2d88750bb94238f59029d7276c1e992c2aa",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 102,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 103,
+      "status": "synthetic",
+      "array_sha256": "8a18396f1f728ae7ea666d3acc929a797ab20e71a7fc103ca7a4dd9cbeb04e80",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 103,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 104,
+      "status": "synthetic",
+      "array_sha256": "f6c6d9fe47ee272c3cdd0c1c71bd80fda1834d912f0c13a31c5bd0dee3de9397",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 104,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 105,
+      "status": "synthetic",
+      "array_sha256": "31382bea165f8e80458f4554d38e8658e5ab14d1ff791c1e75447605036f877b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 105,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 106,
+      "status": "synthetic",
+      "array_sha256": "6822fa618a65e45444aa080dad4bfc379f1e7bd5c882f175d8e92465d8be26f4",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 106,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 107,
+      "status": "synthetic",
+      "array_sha256": "c9c165b3a3c9ee2e8d1c1dd1d84416d688171fd4e8d4559bd4caa3f31c02dc44",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 107,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 108,
+      "status": "synthetic",
+      "array_sha256": "246c5542b06b83c39b001620d222f00eae3d0859c673682d101cdfe75ee875c5",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 108,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "los",
+      "seed": 109,
+      "status": "synthetic",
+      "array_sha256": "3d3aa9ef45e0465ca0b06e2dad9d8a4574935cff0b42ed20767dc8a33123e1fc",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 109,
+        "scenario": "los",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 100,
+      "status": "synthetic",
+      "array_sha256": "8556b4d15e6a0a3ba94410b425aeab381f7f514f87e68784b5912800013c57b1",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 100,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": true,
+      "file": "nlos_seed100.npz",
+      "file_sha256": "3fb89c37ac4d1bc936cb1760fc475a7bc73b6abbb4802ca5c90e9686865d0865",
+      "bytes": 387096
+    },
+    {
+      "scenario": "nlos",
+      "seed": 101,
+      "status": "synthetic",
+      "array_sha256": "60898fb0a8bec7585723747b5ee19b416004818f4bca0bfd7bafa68a5a5e2d33",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 101,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 102,
+      "status": "synthetic",
+      "array_sha256": "41274d0dd0c722e6a0cddbb13b1c24afe4ff1bd668408017f42bbb5dda072bac",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 102,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 103,
+      "status": "synthetic",
+      "array_sha256": "4a6d40f88b6cdf7610082c2ba9acec0e2717fd410fa285756dc129e2da19153d",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 103,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 104,
+      "status": "synthetic",
+      "array_sha256": "1c2dd09b52d11fba0cb5080be9a12bb15d63d7bae98f68b94362068ad5dcfcc3",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 104,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 105,
+      "status": "synthetic",
+      "array_sha256": "3975228b31070a358f382ca8d800952b5610aa66fedeefcf6a38fb1e1573074b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 105,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 106,
+      "status": "synthetic",
+      "array_sha256": "2b13471269c1518821afdc3daca047a56abbaa77689f43409c81182782422427",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 106,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 107,
+      "status": "synthetic",
+      "array_sha256": "cc10e48398c9bb7544d5681a1eda71031be247c989012ef2e0ae36a6423b101b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 107,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 108,
+      "status": "synthetic",
+      "array_sha256": "f6d12d9717b9b6da60da521b4829856ddbb99cf5d3ee9d1ec0c8fe05e75b2c68",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 108,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "nlos",
+      "seed": 109,
+      "status": "synthetic",
+      "array_sha256": "3f87f121058bab0a4764fb09aae3502f3fe949cfd7068e633bfe16bb15e1e4b3",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 109,
+        "scenario": "nlos",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 100,
+      "status": "synthetic",
+      "array_sha256": "fd6f9763c15bd6cf73f96f648ff3eec143389c7f56ec87bd359ba05737d4a60b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 100,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": true,
+      "file": "dropout_seed100.npz",
+      "file_sha256": "6d70b89eb55e47c6b54661bf6173a26a09f4ce35bdbe6f673b60c222b0113b29",
+      "bytes": 385230
+    },
+    {
+      "scenario": "dropout",
+      "seed": 101,
+      "status": "synthetic",
+      "array_sha256": "67eef790ec26532841e2895470ec84df447f04250523c5df8c435eb3fcc3b9f4",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 101,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 102,
+      "status": "synthetic",
+      "array_sha256": "d0ab1e4d5e8ddf04f3232000e88c39dda782eecf47c89119accef0a4d9b9b86b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 102,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 103,
+      "status": "synthetic",
+      "array_sha256": "ecdab9e07003b20855ff8bae7ec685a03be2ccdba9d8390973979a7df2c0e2a6",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 103,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 104,
+      "status": "synthetic",
+      "array_sha256": "842d93c1cbaa6352042ad48da88b94eaa0723eab5730c75b9e85ec37b88da76f",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 104,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 105,
+      "status": "synthetic",
+      "array_sha256": "db225cff8e028afb8dae1e8b190d08eb210eb64df8e274ee81684bed221d8c7e",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 105,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 106,
+      "status": "synthetic",
+      "array_sha256": "3da516f529a98e91d77f7f147a13b901364a451162f9d2a8cd90539aaba02679",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 106,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 107,
+      "status": "synthetic",
+      "array_sha256": "7ebba72db1a9d397956d97a780a01042aa656449030adb7fafb0a67efcdb18ad",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 107,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 108,
+      "status": "synthetic",
+      "array_sha256": "89ced57184ed530e6c7c88057be8111ba1b3d8e6f693fd6602a3bbd091607182",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 108,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "dropout",
+      "seed": 109,
+      "status": "synthetic",
+      "array_sha256": "a41c292b8b3591eb7ee28923dfde5660f62098e7efbc44b13de921129bcd9b5c",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 109,
+        "scenario": "dropout",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 100,
+      "status": "synthetic",
+      "array_sha256": "f34a502af2f0838c6d4c29b9ed0fe55d0f5a4b9d8b3ff475ea710ba2a76fea9a",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 100,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": true,
+      "file": "combined_seed100.npz",
+      "file_sha256": "cac5b2577a006192eaead2fbabedfa1afc1bc275a9bb892870ace5118139ad74",
+      "bytes": 385260
+    },
+    {
+      "scenario": "combined",
+      "seed": 101,
+      "status": "synthetic",
+      "array_sha256": "387638c0426bda1d5c27a954029e54488ae6d0c709b3f0df80dbfce96f0ccb27",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 101,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 102,
+      "status": "synthetic",
+      "array_sha256": "65207b5effde2f14e5b86b0dd3251fef26fdd49eb0f5647f4a9ca56a64ec6503",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 102,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 103,
+      "status": "synthetic",
+      "array_sha256": "51a2e1a697165f10faae72d413d79d77780e34b37a718383e7c7d19d00feeb1d",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 103,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 104,
+      "status": "synthetic",
+      "array_sha256": "1c8eddb695eea4f63c4536cdb125ad231adbd78c0fc0ec63e8a028e7cee11556",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 104,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 105,
+      "status": "synthetic",
+      "array_sha256": "7d8fb26d6f63fc32190790d56211bbd7ab5df56e9feae614305cf6fd81a9439d",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 105,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 106,
+      "status": "synthetic",
+      "array_sha256": "ecc3d60aeeb3dac430efe934cdd04d30e6ec50b0cd3eee647e56e8a8a626c35b",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 106,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 107,
+      "status": "synthetic",
+      "array_sha256": "4f9b882c5fc9307fccb1a69a8813f342de5661f55189e8c12087d83255ab6b67",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 107,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 108,
+      "status": "synthetic",
+      "array_sha256": "477ef80672f14d760bf9de1cf4d254f95e464e71203aec85059e462e47a54657",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 108,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    },
+    {
+      "scenario": "combined",
+      "seed": 109,
+      "status": "synthetic",
+      "array_sha256": "b2e03774e3846732e6f8c31b8345cd80b7c50202d9d68f70037bf6d2d8445d3d",
+      "metadata": {
+        "data_kind": "synthetic",
+        "seed": 109,
+        "scenario": "combined",
+        "config": {
+          "duration_s": 30.0,
+          "imu_rate_hz": 100.0,
+          "uwb_rate_hz": 10.0,
+          "range_std_m": 0.08,
+          "accel_std_mps2": 0.03,
+          "gyro_std_radps": 0.001,
+          "accel_bias_rw_mps2_sqrts": 0.0001,
+          "gyro_bias_rw_radps_sqrts": 2e-05,
+          "accel_bias_mps2": [
+            0.03,
+            -0.02,
+            0.015
+          ],
+          "gyro_bias_radps": [
+            0.0008,
+            -0.0006,
+            0.0004
+          ],
+          "initial_position_error_m": [
+            0.25,
+            -0.2,
+            0.15
+          ],
+          "initial_velocity_error_mps": [
+            0.03,
+            -0.02,
+            0.02
+          ],
+          "initial_attitude_error_deg": [
+            0.7,
+            -0.5,
+            1.5
+          ],
+          "nlos_intervals_s": [
+            [
+              8.0,
+              14.0
+            ],
+            [
+              20.0,
+              24.0
+            ]
+          ],
+          "nlos_anchor_groups": [
+            [
+              0,
+              1
+            ],
+            [
+              3
+            ]
+          ],
+          "nlos_bias_floor_m": 0.6,
+          "nlos_bias_exponential_mean_m": 0.25,
+          "dropout_interval_s": [
+            15.0,
+            19.0
+          ],
+          "anchors_m": [
+            [
+              0.0,
+              0.0,
+              0.3
+            ],
+            [
+              10.0,
+              0.0,
+              2.8
+            ],
+            [
+              10.0,
+              8.0,
+              0.3
+            ],
+            [
+              0.0,
+              8.0,
+              2.8
+            ],
+            [
+              5.0,
+              0.0,
+              2.8
+            ],
+            [
+              5.0,
+              8.0,
+              0.3
+            ]
+          ]
+        },
+        "frame": "ENU; body-to-world quaternion xyzw",
+        "gravity_mps2": [
+          0.0,
+          0.0,
+          -9.80665
+        ],
+        "initialization": "true initial state plus fixed configured errors (warm-start assumption)",
+        "imu_timing": "sample k is interval-average at midpoint of [t[k], t[k+1]]",
+        "uwb_timing": "synchronous range epochs at t[k]; NaN means no measurement"
+      },
+      "retained": false
+    }
+  ]
+}

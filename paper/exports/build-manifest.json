@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-23T08:52:05.182969+00:00",
+  "pandoc": "pandoc 3.1.11.1",
+  "xelatex": "XeTeX 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian)",
+  "formats": [
+    "pdf",
+    "docx"
+  ],
+  "source_sha256": {
+    "paper/en/manuscript.md": "5daadc5ea0fe5c52493aee6c072b8899ed78f207a5b6d3de3162fb1f3b6c12e9",
+    "paper/zh/manuscript.md": "c699fa41786e464b6e0d40b47279df2692ef5d664b587172964710d5e2502b59",
+    "paper/references.bib": "645ba3a8091038dd76fb9839b97658eb3b4e800156a55b7d20b8e5d7b267bf6b",
+    "scripts/build_paper.py": "b2afaf202f891956cc8a0df4986b5003b371508598e8a5a584e1db3b3082a281",
+    "paper/pandoc/translations/zh.yaml": "4540bc2a30ce0915048dfcbe582521baa3b969189707cf54452339260f06fa44",
+    "experiments/results/reference/position_errors.png": "30904e1383a0156ce24f8de622442a8aedba3ead9869f028b72c72e59cfe5161",
+    "experiments/results/reference/trajectories_xy.png": "9e83ffcff4bfe2e725bc246a2db8a72b51df5bdf61bb017903bfd6f1f1328c47"
+  },
+  "artifacts": {
+    "manuscript-en.pdf": "b779eb881848647f893a7c129e93a1db312e2706e7145490860612e0063744d8",
+    "manuscript-en.docx": "83441cd319aad255c0f725ce12c73c5fb09d48c92e1acfe99c11db39f6e4d5cb",
+    "manuscript-zh.pdf": "5f722337c87f6e760c5a10a1e7a0db81c5c35d1921d22bd330d573d6b34d738d",
+    "manuscript-zh.docx": "f6f4739f4973af358f360a4e1b10421e66233b0a0d3c66f87611610004c49439"
+  }
+}

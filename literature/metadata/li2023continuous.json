@@ -1,0 +1,77 @@
+{
+  "DOI": "10.1109/lra.2023.3281932",
+  "title": [
+    "Continuous-Time Ultra-Wideband-Inertial Fusion"
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-2368-3217",
+      "authenticated-orcid": false,
+      "given": "Kailai",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Division of Automatic Control, Department of Electrical Engineering, Link&#x00F6;ping University, Link&#x00F6;ping, Sweden"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0005-0018-5580",
+      "authenticated-orcid": false,
+      "given": "Ziyu",
+      "family": "Cao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Intelligent Sensor-Actuator-Systems Laboratory, Institute for Anthropomatics and Robotics, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9870-2331",
+      "authenticated-orcid": false,
+      "given": "Uwe D.",
+      "family": "Hanebeck",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Intelligent Sensor-Actuator-Systems Laboratory, Institute for Anthropomatics and Robotics, Karlsruhe Institute of Technology, Karlsruhe, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Robotics and Automation Letters"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        7
+      ]
+    ]
+  },
+  "volume": "8",
+  "issue": "7",
+  "page": "4338-4345",
+  "URL": "https://doi.org/10.1109/lra.2023.3281932"
+}

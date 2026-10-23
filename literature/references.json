@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-23",
+  "scope": "Targeted starting bibliography; not a systematic or exhaustive review.",
+  "evidence_levels": {
+    "metadata": "Bibliographic facts only; no detailed scientific assertion inferred.",
+    "selected_full_text": "Only listed portions read; not an exhaustive reading or independent reproduction."
+  },
+  "references": [
+    {
+      "key": "marano2010nlos",
+      "title": "NLOS identification and mitigation for localization based on UWB experimental data",
+      "authors": [
+        "Stefano Marano",
+        "Wesley Gifford",
+        "Henk Wymeersch",
+        "Moe Win"
+      ],
+      "year": 2010,
+      "doi": "10.1109/jsac.2010.100907",
+      "url": "https://doi.org/10.1109/jsac.2010.100907",
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only",
+      "supports": "Prior work specifically studies UWB NLOS identification and mitigation.",
+      "does_not_establish": "No reproduction or detailed algorithm/performance claim.",
+      "metadata_file": "literature/metadata/marano2010nlos.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/jsac.2010.100907",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "bordoy2017robust",
+      "title": "Robust Extended Kalman filter for NLOS mitigation and sensor data fusion",
+      "authors": [
+        "Joan Bordoy",
+        "Christian Schindelhauer",
+        "Rui Zhang",
+        "Fabian Hoflinger",
+        "Leonhard M. Reindl"
+      ],
+      "year": 2017,
+      "doi": "10.1109/isiss.2017.7935670",
+      "url": "https://doi.org/10.1109/isiss.2017.7935670",
+      "venue": "2017 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only",
+      "supports": "Robust EKF for NLOS mitigation and sensor fusion predates this project.",
+      "does_not_establish": "No claim of equivalence to, or improvement over, this algorithm.",
+      "metadata_file": "literature/metadata/bordoy2017robust.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/isiss.2017.7935670",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "briese2017adaptive",
+      "title": "UWB localization using adaptive covariance Kalman Filter based on sensor fusion",
+      "authors": [
+        "Danilo Briese",
+        "Holger Kunze",
+        "Georg Rose"
+      ],
+      "year": 2017,
+      "doi": "10.1109/icuwb.2017.8250968",
+      "url": "https://doi.org/10.1109/icuwb.2017.8250968",
+      "venue": "2017 IEEE 17th International Conference on Ubiquitous Wireless Broadband (ICUWB)",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only",
+      "supports": "Adaptive-covariance UWB sensor fusion predates this project.",
+      "does_not_establish": "No detailed formulation or quantitative comparison verified.",
+      "metadata_file": "literature/metadata/briese2017adaptive.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/icuwb.2017.8250968",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "oursland2024invariant",
+      "title": "An Invariant Extended Kalman Filter for IMU-UWB Sensor Fusion",
+      "authors": [
+        "Jacob Oursland",
+        "Mohammadreza Mehrabian"
+      ],
+      "year": 2024,
+      "doi": "10.1109/ro-man60168.2024.10731434",
+      "url": "https://doi.org/10.1109/ro-man60168.2024.10731434",
+      "venue": "2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only",
+      "supports": "Invariant IMU-UWB filtering is a relevant comparison candidate.",
+      "does_not_establish": "Full-text method and experiments not reviewed.",
+      "metadata_file": "literature/metadata/oursland2024invariant.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/ro-man60168.2024.10731434",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "li2023continuous",
+      "title": "Continuous-Time Ultra-Wideband-Inertial Fusion",
+      "authors": [
+        "Kailai Li",
+        "Ziyu Cao",
+        "Uwe D. Hanebeck"
+      ],
+      "year": 2023,
+      "doi": "10.1109/lra.2023.3281932",
+      "url": "https://doi.org/10.1109/lra.2023.3281932",
+      "venue": "IEEE Robotics and Automation Letters",
+      "accessed": "2026-10-23",
+      "evidence_level": "selected_full_text",
+      "sections_reviewed": "Author preprint abstract and introduction; publication metadata",
+      "supports": "UWB-inertial fusion includes continuous-time spline-based methods and asynchronous fusion.",
+      "does_not_establish": "Reported performance is not independently reproduced; not a systematic comparison.",
+      "metadata_file": "literature/metadata/li2023continuous.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/lra.2023.3281932",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "jiang2021seamless",
+      "title": "Indoor and Outdoor Seamless Positioning Method Using UWB Enhanced Multi-Sensor Tightly-Coupled Integration",
+      "authors": [
+        "Wei Jiang",
+        "Zhuojian Cao",
+        "Baigen Cai",
+        "Binghao Li",
+        "Jian Wang"
+      ],
+      "year": 2021,
+      "doi": "10.1109/tvt.2021.3110325",
+      "url": "https://doi.org/10.1109/tvt.2021.3110325",
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only; proposal reference [24]",
+      "supports": "Proposal [24] metadata matches a published tightly coupled UWB/multisensor article.",
+      "does_not_establish": "Specific experimental claims not verified.",
+      "metadata_file": "literature/metadata/jiang2021seamless.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/tvt.2021.3110325",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "huang2023selftraining",
+      "title": "Indoor Localization System With NLOS Mitigation Based on Self-Training",
+      "authors": [
+        "Yanru Huang",
+        "Santiago Mazuelas",
+        "Feng Ge",
+        "Yuan Shen"
+      ],
+      "year": 2023,
+      "doi": "10.1109/tmc.2022.3148338",
+      "url": "https://doi.org/10.1109/tmc.2022.3148338",
+      "venue": "IEEE Transactions on Mobile Computing",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only; proposal reference [25]",
+      "supports": "Self-training NLOS mitigation is a relevant comparison candidate.",
+      "does_not_establish": "Issue publication is July 2023; 2022 in DOI is not the issue year. Full-text not reviewed.",
+      "metadata_file": "literature/metadata/huang2023selftraining.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/tmc.2022.3148338",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "dardari2009ranging",
+      "title": "Ranging With Ultrawide Bandwidth Signals in Multipath Environments",
+      "authors": [
+        "Davide Dardari",
+        "Andrea Conti",
+        "Ulric Ferner",
+        "Andrea Giorgetti",
+        "Moe Z. Win"
+      ],
+      "year": 2009,
+      "doi": "10.1109/jproc.2008.2008846",
+      "url": "https://doi.org/10.1109/jproc.2008.2008846",
+      "venue": "Proceedings of the IEEE",
+      "accessed": "2026-10-23",
+      "evidence_level": "metadata",
+      "sections_reviewed": "Crossref bibliographic record only",
+      "supports": "Canonical background on UWB ranging in multipath environments.",
+      "does_not_establish": "No specific numerical accuracy or propagation guarantee verified.",
+      "metadata_file": "literature/metadata/dardari2009ranging.json",
+      "metadata_url": "https://api.crossref.org/works/10.1109/jproc.2008.2008846",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "zhao2024util",
+      "title": "UTIL: An ultra-wideband time-difference-of-arrival indoor localization dataset",
+      "authors": [
+        "Wenda Zhao",
+        "Abhishek Goudar",
+        "Xinyuan Qiao",
+        "Angela P. Schoellig"
+      ],
+      "year": 2024,
+      "doi": "10.1177/02783649241230640",
+      "url": "https://doi.org/10.1177/02783649241230640",
+      "venue": "The International Journal of Robotics Research",
+      "accessed": "2026-10-23",
+      "evidence_level": "selected_full_text",
+      "sections_reviewed": "Publisher-supplied abstract; author dataset website; author preprint Sections 3–5, Eq. (4), Table 3",
+      "supports": "Real quadrotor dataset with TDOA, IMU, surveyed anchors, static/dynamic obstacles and motion-capture poses.",
+      "does_not_establish": "Dataset files not downloaded or evaluated; redistribution license not confirmed.",
+      "metadata_file": "literature/metadata/zhao2024util.json",
+      "metadata_url": "https://api.crossref.org/works/10.1177/02783649241230640",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "sola2017quaternion",
+      "title": "Quaternion kinematics for the error-state Kalman filter",
+      "authors": [
+        "Joan Solà"
+      ],
+      "year": 2017,
+      "doi": "10.48550/arXiv.1711.02508",
+      "url": "https://arxiv.org/abs/1711.02508",
+      "venue": "arXiv",
+      "evidence_level": "selected_full_text",
+      "sections_reviewed": "Author preprint Sections 5 and 6 (IMU error-state formulation, error injection, covariance reset); landing-page metadata",
+      "supports": "Nominal quaternion and local attitude-error representation; IMU kinematics; covariance reset after injection.",
+      "does_not_establish": "Does not establish UWB-specific performance or novelty.",
+      "accessed": "2026-10-23",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "dworkin2007gcm",
+      "title": "Recommendation for Block Cipher Modes of Operation: Galois/Counter Mode (GCM) and GMAC",
+      "authors": [
+        "Morris Dworkin"
+      ],
+      "year": 2007,
+      "doi": "10.6028/NIST.SP.800-38D",
+      "url": "https://csrc.nist.gov/pubs/sp/800/38/d/final",
+      "venue": "NIST Special Publication 800-38D",
+      "evidence_level": "selected_full_text",
+      "sections_reviewed": "Official landing page; standard Sections 5.2 and 8; Appendices A and D",
+      "supports": "Authenticated encryption, IV uniqueness, and explicit need for replay protection outside GCM.",
+      "does_not_establish": "No guarantee against spoofed physical ranging, compromised sensors/keys, jamming, or denial of service. The landing page announces planned revision; cited document is 2007 final.",
+      "accessed": "2026-10-23",
+      "full_text_review_complete": false
+    },
+    {
+      "key": "mcgrew2008aead",
+      "title": "An Interface and Algorithms for Authenticated Encryption",
+      "authors": [
+        "David McGrew"
+      ],
+      "year": 2008,
+      "doi": "10.17487/RFC5116",
+      "url": "https://www.rfc-editor.org/rfc/rfc5116",
+      "venue": "RFC 5116",
+      "evidence_level": "selected_full_text",
+      "sections_reviewed": "Official RFC text Sections 1–3 and 5.1.1",
+      "supports": "AEAD interface, distinct nonces per key, counter construction, reboot considerations and nonce-reuse consequences.",
+      "does_not_establish": "The AEAD interface does not itself provide anti-replay or access-control services.",
+      "accessed": "2026-10-23",
+      "full_text_review_complete": false
+    }
+  ]
+}

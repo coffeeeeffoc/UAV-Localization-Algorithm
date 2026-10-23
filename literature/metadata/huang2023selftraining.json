@@ -1,0 +1,94 @@
+{
+  "DOI": "10.1109/tmc.2022.3148338",
+  "title": [
+    "Indoor Localization System With NLOS Mitigation Based on Self-Training"
+  ],
+  "author": [
+    {
+      "given": "Yanru",
+      "family": "Huang",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Electronic Engineering, Tsinghua University and the Beijing National Research Center for Information Science and Technology, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6608-8581",
+      "authenticated-orcid": false,
+      "given": "Santiago",
+      "family": "Mazuelas",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "BCAM-Basque Center for Applied Mathematics, and IKERBASQUE-Basque Foundation for Science, Bilbao, Biscay, Spain"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0812-1926",
+      "authenticated-orcid": false,
+      "given": "Feng",
+      "family": "Ge",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electronic Engineering, Tsinghua University, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-9396-1964",
+      "authenticated-orcid": false,
+      "given": "Yuan",
+      "family": "Shen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Electronic Engineering, Tsinghua University, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Mobile Computing"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        7,
+        1
+      ]
+    ]
+  },
+  "volume": "22",
+  "issue": "7",
+  "page": "3952-3966",
+  "URL": "https://doi.org/10.1109/tmc.2022.3148338"
+}

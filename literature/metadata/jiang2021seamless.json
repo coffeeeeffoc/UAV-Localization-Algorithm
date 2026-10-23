@@ -1,0 +1,89 @@
+{
+  "DOI": "10.1109/tvt.2021.3110325",
+  "title": [
+    "Indoor and Outdoor Seamless Positioning Method Using UWB Enhanced Multi-Sensor Tightly-Coupled Integration"
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-6381-4915",
+      "authenticated-orcid": false,
+      "given": "Wei",
+      "family": "Jiang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zhuojian",
+      "family": "Cao",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-6440-005X",
+      "authenticated-orcid": false,
+      "given": "Baigen",
+      "family": "Cai",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-8565-7287",
+      "authenticated-orcid": false,
+      "given": "Binghao",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jian",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Vehicular Technology"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        10
+      ]
+    ]
+  },
+  "volume": "70",
+  "issue": "10",
+  "page": "10633-10645",
+  "URL": "https://doi.org/10.1109/tvt.2021.3110325"
+}

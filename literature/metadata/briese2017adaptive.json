@@ -1,0 +1,57 @@
+{
+  "DOI": "10.1109/icuwb.2017.8250968",
+  "title": [
+    "UWB localization using adaptive covariance Kalman Filter based on sensor fusion"
+  ],
+  "author": [
+    {
+      "given": "Danilo",
+      "family": "Briese",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Holger",
+      "family": "Kunze",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Georg",
+      "family": "Rose",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "2017 IEEE 17th International Conference on Ubiquitous Wireless Broadband (ICUWB)"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        9
+      ]
+    ]
+  },
+  "page": "1-7",
+  "URL": "https://doi.org/10.1109/icuwb.2017.8250968"
+}

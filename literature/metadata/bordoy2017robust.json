@@ -1,0 +1,81 @@
+{
+  "DOI": "10.1109/isiss.2017.7935670",
+  "title": [
+    "Robust Extended Kalman filter for NLOS mitigation and sensor data fusion"
+  ],
+  "author": [
+    {
+      "given": "Joan",
+      "family": "Bordoy",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Christian",
+      "family": "Schindelhauer",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Rui",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Fabian",
+      "family": "Hoflinger",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Leonhard M.",
+      "family": "Reindl",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "2017 IEEE International Symposium on Inertial Sensors and Systems (INERTIAL)"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2017,
+        3
+      ]
+    ]
+  },
+  "page": "117-120",
+  "URL": "https://doi.org/10.1109/isiss.2017.7935670"
+}

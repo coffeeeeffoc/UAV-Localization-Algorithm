@@ -1,0 +1,54 @@
+{
+  "DOI": "10.1109/ro-man60168.2024.10731434",
+  "title": [
+    "An Invariant Extended Kalman Filter for IMU-UWB Sensor Fusion"
+  ],
+  "author": [
+    {
+      "given": "Jacob",
+      "family": "Oursland",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "SDSM&amp;T,Rapid City,SD,USA,57701"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Mohammadreza",
+      "family": "Mehrabian",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "SDSM&amp;T,Rapid City,SD,USA,57701"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "2024 33rd IEEE International Conference on Robot and Human Interactive Communication (ROMAN)"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        8,
+        26
+      ]
+    ]
+  },
+  "page": "154-159",
+  "URL": "https://doi.org/10.1109/ro-man60168.2024.10731434"
+}

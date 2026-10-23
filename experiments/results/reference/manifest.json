@@ -1,0 +1,50 @@
+{
+  "evidence_type": "synthetic_simulation",
+  "started_utc": "2026-10-23T08:41:56.446669+00:00",
+  "finished_utc": "2026-10-23T08:45:31.860220+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "git_commit_at_execution": "4686451a6923c579e971c84ba7b5b367b6e814b9",
+  "working_tree_dirty_at_execution": true,
+  "source_sha256": {
+    "src/uav_localization/__init__.py": "b24dfb4ea24d5a9c65fe7730bd336b1151422daaef096f73b7fcc8be410b4052",
+    "src/uav_localization/estimation.py": "6673d1648cb67dcbd6d8aa5b40e53efe0e0f5554af07ab78b5bd183480590414",
+    "src/uav_localization/simulation.py": "18d0740a30d5c8a24a5eceeddbc71c533d9abc09207c587cf1611d13528f39e8",
+    "src/uav_localization/geometry.py": "c76dba45253644be4e5c6679d4bcccf4db2d05ad247b8477ebc0350fffcdce37",
+    "scripts/run_experiments.py": "3abaa120def763146afec8d129ecfe95dbaacc822a8d4ff7b7588663e8948502"
+  },
+  "requested_config_sha256": "b6112b47f96d5857c13bfc142c37354540c1eab12a2930021def483e1f743a5a",
+  "seed_policy": "Calibration seeds reserved; no training/tuning performed by runner. Evaluation seeds paired across all methods.",
+  "uncertainty": "Two-sided Student-t intervals over independent seed-level metrics/differences; exploratory, no multiplicity correction.",
+  "artifacts": {
+    "../../../data/synthetic/reference/combined_seed100.npz": "cac5b2577a006192eaead2fbabedfa1afc1bc275a9bb892870ace5118139ad74",
+    "../../../data/synthetic/reference/dropout_seed100.npz": "6d70b89eb55e47c6b54661bf6173a26a09f4ce35bdbe6f673b60c222b0113b29",
+    "../../../data/synthetic/reference/los_seed100.npz": "ba7616686b772f0fd84b639184e5e6f4dabf2281c837a34a7ec5e4fec9c04947",
+    "../../../data/synthetic/reference/manifest.json": "2c58fd1d19519f677008cf77fb9fcbe6777f7f4fe06b8c5c09c255f4cc180601",
+    "../../../data/synthetic/reference/nlos_seed100.npz": "3fb89c37ac4d1bc936cb1760fc475a7bc73b6abbb4802ca5c90e9686865d0865",
+    "config.requested.json": "b6112b47f96d5857c13bfc142c37354540c1eab12a2930021def483e1f743a5a",
+    "config.resolved.json": "b6112b47f96d5857c13bfc142c37354540c1eab12a2930021def483e1f743a5a",
+    "diagnostics_combined_seed100.csv.gz": "0594c4fce6404ace392f67b156a8560dffebbd98194de853c6968cc4a2e134e5",
+    "diagnostics_dropout_seed100.csv.gz": "2f10505944726f86596e781892ce491b313a0aa7fea27cb547329b007b2c0083",
+    "diagnostics_los_seed100.csv.gz": "4701062ee8e4abd2ddb30da1c35004e27712999ecce826e5fd6cac36251a6547",
+    "diagnostics_nlos_seed100.csv.gz": "0ba42efc0227e3acd589d410c3a0155f3d4749db037d83897a5f7d6879cb784a",
+    "paired_comparisons.csv": "b356517c6e7f8d4a8868455a8c66b63284c9f6b0f5e09d30028f2bf84259f20b",
+    "per_run_metrics.csv": "fcb46bdca4f488cf84eedbf4bc806924e9f806d9aa17948db620880b1793b1ce",
+    "position_errors.pdf": "ea79054cc4aa66e863ddaf5921bfbc447cd97d39e9d399a17181f861fb6d81c1",
+    "position_errors.png": "30904e1383a0156ce24f8de622442a8aedba3ead9869f028b72c72e59cfe5161",
+    "predictions_combined_seed100.npz": "839bbcf094fb01f095a1256ebe78f9b33c458764fd34fe9e18d4569a4f0179af",
+    "predictions_dropout_seed100.npz": "0c4d37059629484a0030e155e6e603241d0b3d1c302b9fd9d3cf86a8a8e64851",
+    "predictions_los_seed100.npz": "d6feb32cb3e5d7a1133ce5d5afce4f9814bb6cac47ba13cad11301f09ab61ee9",
+    "predictions_nlos_seed100.npz": "a8f607a3ec4f2013a3077e92dba4ca20e12ba27c136d0efd85dae75aba2c1678",
+    "report.md": "b16e37709abaf4113608bac467ce61b72644c02697f9e23009173e0fafa0e646",
+    "summary.json": "366af7a983e97f33a79834a4dac1c5bc2cb4595e7546a8e2b138754c6ba0109f",
+    "summary_metrics.csv": "0d9c30b65544507a8c0629cf495f591a351378bef17868a446df7fb54f24b6e8",
+    "trajectories_xy.pdf": "39732b46521ce16fd3577d97b6588cdeeac695f6fe67faccbbe8bc19d64da6de",
+    "trajectories_xy.png": "9e83ffcff4bfe2e725bc246a2db8a72b51df5bdf61bb017903bfd6f1f1328c47"
+  }
+}

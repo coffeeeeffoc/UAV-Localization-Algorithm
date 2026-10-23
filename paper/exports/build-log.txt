@@ -1,0 +1,7 @@
+en/pdf: exit=0
+
+en/docx: exit=0
+
+zh/pdf: exit=0
+
+zh/docx: exit=0

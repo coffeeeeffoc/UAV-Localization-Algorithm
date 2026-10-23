@@ -1,0 +1,71 @@
+{
+  "DOI": "10.1109/jsac.2010.100907",
+  "title": [
+    "NLOS identification and mitigation for localization based on UWB experimental data"
+  ],
+  "author": [
+    {
+      "given": "Stefano",
+      "family": "Marano",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Wesley",
+      "family": "Gifford",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Henk",
+      "family": "Wymeersch",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Moe",
+      "family": "Win",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "IEEE Journal on Selected Areas in Communications"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2010,
+        9
+      ]
+    ]
+  },
+  "volume": "28",
+  "issue": "7",
+  "page": "1026-1035",
+  "URL": "https://doi.org/10.1109/jsac.2010.100907"
+}

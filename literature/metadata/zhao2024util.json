@@ -1,0 +1,97 @@
+{
+  "DOI": "10.1177/02783649241230640",
+  "title": [
+    "UTIL: An ultra-wideband time-difference-of-arrival indoor localization dataset"
+  ],
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-4288-0582",
+      "authenticated-orcid": false,
+      "given": "Wenda",
+      "family": "Zhao",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "The University of Toronto Robotics Institute, Vector Institute for Artificial Intelligence, University of Toronto Institute for Aerospace Studies (UTIAS), Toronto, ON, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-4438-5876",
+      "authenticated-orcid": false,
+      "given": "Abhishek",
+      "family": "Goudar",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The University of Toronto Robotics Institute, Vector Institute for Artificial Intelligence, University of Toronto Institute for Aerospace Studies (UTIAS), Toronto, ON, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xinyuan",
+      "family": "Qiao",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The University of Toronto Robotics Institute, Vector Institute for Artificial Intelligence, University of Toronto Institute for Aerospace Studies (UTIAS), Toronto, ON, Canada"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4012-4668",
+      "authenticated-orcid": false,
+      "given": "Angela P.",
+      "family": "Schoellig",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "The University of Toronto Robotics Institute, Vector Institute for Artificial Intelligence, University of Toronto Institute for Aerospace Studies (UTIAS), Toronto, ON, Canada"
+        },
+        {
+          "name": "Munich Institute for Robotics and Machine Intelligence (MIRMI), Technical University of Munich, Munich, Germany"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "The International Journal of Robotics Research"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        5
+      ]
+    ]
+  },
+  "volume": "43",
+  "issue": "10",
+  "page": "1443-1456",
+  "URL": "https://doi.org/10.1177/02783649241230640"
+}

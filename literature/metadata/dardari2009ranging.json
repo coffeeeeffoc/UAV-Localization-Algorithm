@@ -1,0 +1,83 @@
+{
+  "DOI": "10.1109/jproc.2008.2008846",
+  "title": [
+    "Ranging With Ultrawide Bandwidth Signals in Multipath Environments"
+  ],
+  "author": [
+    {
+      "given": "Davide",
+      "family": "Dardari",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Andrea",
+      "family": "Conti",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ulric",
+      "family": "Ferner",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Andrea",
+      "family": "Giorgetti",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Moe Z.",
+      "family": "Win",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "container-title": [
+    "Proceedings of the IEEE"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2009,
+        2
+      ]
+    ]
+  },
+  "volume": "97",
+  "issue": "2",
+  "page": "404-426",
+  "URL": "https://doi.org/10.1109/jproc.2008.2008846"
+}

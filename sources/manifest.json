@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "supplied_filename": "1-研究内容一.docx",
+      "path": "sources/original/research-draft.docx",
+      "sha256": "c56c346adbc6128feefb1e641d152d747d2da1ad41429a1b9c34d77758c2f616",
+      "bytes": 27019,
+      "extracted_path": "sources/extracted/research-draft.md",
+      "extracted_sha256": "6ed80424c5d4449ea0e8934cfc598d55eed60a4097ffafa75efa6ed27810c532",
+      "converter": "pandoc",
+      "received_date": "2026-10-23",
+      "provenance": "User-provided unpublished source; no independent validation of claims."
+    },
+    {
+      "supplied_filename": "2-学术型硕士课题论证报告-周天书.doc",
+      "path": "sources/original/thesis-proposal.doc",
+      "sha256": "c307b94d80cd2a0ebec948f6c4374c62d9d8fb45a8c257f169ed29f07c5c64ea",
+      "bytes": 98816,
+      "extracted_path": "sources/extracted/thesis-proposal.txt",
+      "extracted_sha256": "4d344ac2b9d9c3990d4a3405367a5ce9d256d169ff009e3993a4114788a23b09",
+      "converter": "antiword 0.37",
+      "received_date": "2026-10-23",
+      "provenance": "User-provided unpublished source; no independent validation of claims."
+    }
+  ]
+}

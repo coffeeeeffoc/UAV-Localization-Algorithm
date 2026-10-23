@@ -1,0 +1,65 @@
+{
+  "experiment_name": "smoke-v1",
+  "evidence_type": "synthetic_simulation",
+  "purpose": "Fast integration check; not a performance study",
+  "calibration_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "evaluation_seeds": [
+    200,
+    201
+  ],
+  "scenarios": [
+    "los",
+    "combined"
+  ],
+  "methods": [
+    "uwb",
+    "ins",
+    "eskf",
+    "gated_eskf",
+    "adaptive_eskf",
+    "robust_eskf"
+  ],
+  "simulation": {
+    "duration_s": 4.0,
+    "imu_rate_hz": 100.0,
+    "uwb_rate_hz": 10.0,
+    "nlos_intervals_s": [
+      [
+        1.0,
+        1.5
+      ],
+      [
+        3.3,
+        3.8
+      ]
+    ],
+    "dropout_interval_s": [
+      2.0,
+      3.0
+    ]
+  },
+  "filter": {
+    "range_std_m": 0.08,
+    "accel_std_mps2": 0.03,
+    "gyro_std_radps": 0.001,
+    "accel_bias_rw_mps2_sqrts": 0.0001,
+    "gyro_bias_rw_radps_sqrts": 2e-05,
+    "initial_position_std_m": 0.5,
+    "initial_velocity_std_mps": 0.2,
+    "initial_attitude_std_deg": 3.0,
+    "initial_accel_bias_std_mps2": 0.1,
+    "initial_gyro_bias_std_radps": 0.005,
+    "soft_nis_threshold": 3.841458820694124,
+    "hard_nis_threshold": 10.827566170662733,
+    "max_variance_scale": 25.0
+  },
+  "save_datasets": "representative",
+  "output_directory": "experiments/results/smoke",
+  "data_directory": "data/synthetic/smoke"
+}

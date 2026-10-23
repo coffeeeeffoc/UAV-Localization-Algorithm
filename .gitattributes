@@ -1,0 +1,12 @@
+# Keep source and evidence hashes stable across operating systems.
+* text=auto eol=lf
+*.csv -text whitespace=cr-at-eol
+*.npz -text
+*.gz -text
+*.pdf -text
+*.png -text
+*.doc -text
+*.docx -text
+sources/original/* -text
+# Extracted source text preserves converter output, including terminal blanks.
+sources/extracted/* -text -whitespace
