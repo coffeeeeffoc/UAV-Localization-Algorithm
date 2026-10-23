@@ -1,0 +1,7 @@
+# Reference environment: CPython 3.12.14, Linux x86_64.
+# Direct runtime dependencies pinned for the recorded experiments.
+# Full installed distribution versions are recorded by each experiment manifest.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+cryptography==50.0.0
